@@ -1,0 +1,137 @@
+@media only screen and (max-width: 767px) {
+    table {
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+    }
+
+    .App {
+        text-align: center;
+    }
+
+    .App-books-stores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .App-book-store {
+        padding: 24px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .App-book-store .store-img {
+        flex-basis: 30%;
+        flex-grow: 0;
+    }
+    .App-book-store .store-img img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .App-book-store .store-content {
+        flex-basis: 70%;
+        flex-grow: 0;
+    }
+
+    .App-book-store .store-content .store-name-rating {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .App-book-store .store-content .store-best-selling table {
+        width: 100%;
+        text-align: left;
+    }
+
+    .App-book-store .store-date-flag {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    table {
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+    }
+
+    tbody th {
+        font-weight: 400;
+    }
+    .App {
+        text-align: center;
+    }
+
+    .App-books-stores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .App-book-store {
+        padding: 24px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        width: 700px;
+    }
+
+    .App-book-store .store-img {
+        flex-basis: 30%;
+        flex-grow: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .App-book-store .store-img img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .App-book-store .store-content {
+        flex-basis: 70%;
+        flex-grow: 0;
+    }
+
+    .App-book-store .store-content .store-name-rating {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .App-book-store .store-content .store-best-selling table {
+        width: 100%;
+        text-align: left;
+    }
+
+    .App-book-store .store-date-flag {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 5px 0px 0px 60px;
+    }
+}
